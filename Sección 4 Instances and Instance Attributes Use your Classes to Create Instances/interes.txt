@@ -1,0 +1,4 @@
+https://en.wikipedia.org/wiki/Snake_case
+https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variables
+https://stackoverflow.com/questions/45833595/best-practice-for-python-3-class-creation/45834074#45834074
+https://techterms.com/definition/pascalcase

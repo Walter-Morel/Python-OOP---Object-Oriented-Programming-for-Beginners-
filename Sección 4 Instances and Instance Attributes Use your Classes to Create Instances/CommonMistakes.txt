@@ -1,0 +1,27 @@
+__init__(): Common Mistakes
+Common Mistakes with __init__()
+
+
+    Omitting the def keyword:
+
+    __init__(self, width, height): # The def keyword is missing!
+    	self.width = width
+    	self.height = height
+
+    Using only one underscore (You must use two):
+
+    def _init_(self, width, height): # There is only ONE underscore instead of two!
+    	self.width = width
+    	self.height = height
+
+    Omitting self as the first parameter:
+
+    def __init__(width, height): # Self is missing. It must be the FIRST parameter!
+    	self.width = width
+    	self.height = height
+
+    Not using self.<attribute> to assign instance attributes:
+
+    def __init__(self, width, height): 
+    	width = width        # You should use self.width to assign them!
+    	height = height
