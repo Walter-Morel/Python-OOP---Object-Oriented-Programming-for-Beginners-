@@ -5,6 +5,7 @@ class Donut:
             self.toppings = toppings
             self.filling = filling
             self.size = size
+            
 #Fixes:            
 #The class was not well declared, the ':' was missing.
 #The init is not defined correctly
