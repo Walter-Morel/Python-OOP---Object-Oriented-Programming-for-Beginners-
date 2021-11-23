@@ -17,4 +17,5 @@ print(my_pizza.price)
 Pizza.price = 13.99
 print(Pizza.price)
 print(my_pizza.price)
+print('Pizza: {} Description: {} Toppings {} Crust'.format(my_pizza.description, my_pizza.toppings[0], my_pizza.crust))
         
