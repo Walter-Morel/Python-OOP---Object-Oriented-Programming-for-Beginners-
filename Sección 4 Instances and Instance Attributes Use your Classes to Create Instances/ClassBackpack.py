@@ -4,4 +4,5 @@ class  Backpack:
 
 
 my_backpack = Backpack() #Asignamos la clase que hemos creado a una variable, es importante poner doble parentesis luego del nombre de la clase
-print(my_backpack)
+#print(my_backpack)
+print(my_backpack.item)
