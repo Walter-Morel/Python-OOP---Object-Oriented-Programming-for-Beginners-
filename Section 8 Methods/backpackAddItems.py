@@ -24,6 +24,12 @@ class Backpack:
 
     def has_item(self, item):
         return item in self._items
+    #Definiendo el metodo show items para que me muestre todos los items de la mochila
+    def show_items(self, sorted_list=False):
+        if sorted_list:
+            print(sorted(self._items))
+        else:
+            print(self._items)
 
 
 #program
@@ -43,5 +49,13 @@ print(my_backpack.items)
 #comprobamos si un item en especifico existe en nuestra mochila
 has_pencil = my_backpack.has_item('pencil')
 print(f'Existe la bolsa de dormir en nuestra mochila?: {has_pencil}')
+
+my_backpack.add_item('candy')
+print('not sorted:')
+my_backpack.show_items()
+
+print('sorted:')
+my_backpack.show_items(True)
+
 
         
