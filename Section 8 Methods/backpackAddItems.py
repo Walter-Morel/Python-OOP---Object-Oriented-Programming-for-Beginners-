@@ -14,6 +14,10 @@ class Backpack:
         else:
             print('please add new item')
 
+    def multiple_items(self, items): #definimos un metodo para agregar multiples veces un item
+        for item in items:
+            self.add_item(item)
+
     def remove_item(self, item):
         if item in self._items:
             self._items.remove(item)
@@ -56,6 +60,10 @@ my_backpack.show_items()
 
 print('sorted:')
 my_backpack.show_items(True)
+
+#agregamos varios items utilizando el metodo multiple_items
+my_backpack.multiple_items(['pencil', 'carrot', 'anana'])
+print(my_backpack.items)
 
 
         
