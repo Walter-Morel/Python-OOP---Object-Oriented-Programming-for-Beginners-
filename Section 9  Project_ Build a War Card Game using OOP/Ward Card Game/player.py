@@ -1,8 +1,3 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Player:
 
     def __init__(self, name, deck, is_computer=False):

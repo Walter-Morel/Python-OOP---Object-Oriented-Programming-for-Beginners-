@@ -1,8 +1,3 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 import random
 from card import Card
 from suit import Suit

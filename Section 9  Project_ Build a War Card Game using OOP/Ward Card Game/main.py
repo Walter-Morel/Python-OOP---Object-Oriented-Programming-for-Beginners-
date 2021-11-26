@@ -1,8 +1,3 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 from deck import Deck
 from player import Player
 from war_card_game import WarCardGame

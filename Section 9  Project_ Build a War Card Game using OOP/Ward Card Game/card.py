@@ -1,8 +1,3 @@
-"""
-Course: Python OOP - Object Oriented Programming for Beginners
-By: Estefania Cassingena Navone
-"""
-
 class Card:
 
     SPECIAL_CARDS = {11: "Jack", 12: "Queen", 13: "King", 14: "Ace"}
